@@ -1,3 +1,5 @@
 ## Ignore these files
 *.exe
 *.pdf
+.vscode
+*.json
