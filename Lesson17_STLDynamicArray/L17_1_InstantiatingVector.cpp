@@ -23,9 +23,9 @@ int main(void){
     vector<int> partialCopy (tenElements.cbegin(), tenElements.cend() + 5); // cbegin/cend doest not allow modification 
 
     /* 
-        cvar = something.cbegin() // ie. read-only/constant iterator
-        var = something.begin() // ie. read/write iterator
+        cvar = something.cbegin() // ie. read-only/constant iterator, cvar modification isn't allowed
+        var = something.begin() // ie. read/write iterator, var value can change
     */
-
+        // https://stackoverflow.com/questions/31208640/what-is-the-difference-between-cbegin-and-begin-for-vector
     return 0;
 }
