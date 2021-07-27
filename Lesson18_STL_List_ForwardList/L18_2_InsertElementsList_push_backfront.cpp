@@ -16,10 +16,12 @@ int main(void){
     // insert to front
     linkInts.push_front(10);
     linkInts.push_front(2011);
+    linkInts.push_front(2020);
 
     // insert to back
     linkInts.push_back(-1);
     linkInts.push_back(999);
+    linkInts.push_front(2000);
 
     // display the elements of the list
     DisplayContents(linkInts);
