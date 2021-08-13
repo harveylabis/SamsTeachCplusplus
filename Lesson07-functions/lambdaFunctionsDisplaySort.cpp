@@ -4,8 +4,8 @@
 using namespace std;
 
 void DisplayNums(vector<int> &dynArray){
-    for_each (dynArray.begin(), dynArray.end(), [] (int Element) { cout << Element << " "; } );
-    cout << endl;
+    for_each (dynArray.begin(), dynArray.end(), [] (int Element) { std::cout << Element << " "; } );
+    std::cout << endl;
 }
 
 int main()
@@ -18,7 +18,7 @@ int main()
 
     DisplayNums(myNums);
 
-    cout << "Sorting them in descending order" << endl;
+    std::cout << "Sorting them in descending order" << endl;
 
     sort (myNums.begin(), myNums.end(), \
         [] (int Num1, int Num2) {return (Num2 < Num1);} );
